@@ -15,5 +15,14 @@ private WebElement changeBillingAddressLink;
 private WebElement changeShippingAddress;
 @FindBy(xpath = "//span[.='Add New Address']")
 private WebElement addNewAddressButton;
+public WebElement getChangeBillingAddressLink() {
+	return changeBillingAddressLink;
+}
+public WebElement getChangeShippingAddress() {
+	return changeShippingAddress;
+}
+public WebElement getAddNewAddressButton() {
+	return addNewAddressButton;
+}
 
 }

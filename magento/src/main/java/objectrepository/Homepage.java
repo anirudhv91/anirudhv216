@@ -88,6 +88,7 @@ private WebElement myAccountLink;
 @FindBy(linkText = "My Wish List ")
 private WebElement myWishListLink;
 
+
 public WebElement getMyAccountLink() {
 	return myAccountLink;
 }

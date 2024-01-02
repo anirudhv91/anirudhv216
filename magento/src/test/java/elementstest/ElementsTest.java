@@ -1,4 +1,4 @@
-package testscripts;
+package elementstest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +28,5 @@ public class ElementsTest {
 		Thread.sleep(2000);
 		driver.quit(); 
 	}
-
 
 }
